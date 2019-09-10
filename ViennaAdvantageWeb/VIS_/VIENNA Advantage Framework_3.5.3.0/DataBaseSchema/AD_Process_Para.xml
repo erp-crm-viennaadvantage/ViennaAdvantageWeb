@@ -1,0 +1,106 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AD_Process_Para">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AD_CLIENT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_ELEMENT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_ORG_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_PROCESS_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_PROCESS_PARA_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_REFERENCE_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_REFERENCE_VALUE_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_VAL_RULE_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="COLUMNNAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="CREATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CREATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="DEFAULTVALUE" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="DEFAULTVALUE2" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="DESCRIPTION" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ENTITYTYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="FIELDLENGTH" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="HELP" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISACTIVE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISCENTRALLYMAINTAINED" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISDISPLAYED" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISMANDATORY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISRANGE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQNO" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="UPDATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="UPDATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="VFORMAT" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="VALUEMAX" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="VALUEMIN" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISENCRYPTED" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="AD_BVIEW_FIELD_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="EXPORT_ID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="AD_INFOWINDOW_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="LOADRECURSIVEDATA" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="SHOWCHILDOFSELECTED" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AD_Process_Para>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000000</AD_PROCESS_ID>
+    <AD_PROCESS_PARA_ID>1000000</AD_PROCESS_PARA_ID>
+    <AD_REFERENCE_ID>17</AD_REFERENCE_ID>
+    <AD_REFERENCE_VALUE_ID>1000006</AD_REFERENCE_VALUE_ID>
+    <COLUMNNAME>ProcessMode</COLUMNNAME>
+    <CREATED>2010-06-04T18:24:11+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <FIELDLENGTH>0</FIELDLENGTH>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISCENTRALLYMAINTAINED>Y</ISCENTRALLYMAINTAINED>
+    <ISDISPLAYED>Y</ISDISPLAYED>
+    <ISMANDATORY>N</ISMANDATORY>
+    <ISRANGE>N</ISRANGE>
+    <NAME>ProcessMode</NAME>
+    <SEQNO>10</SEQNO>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <ISENCRYPTED>N</ISENCRYPTED>
+    <EXPORT_ID>VIS_1000000</EXPORT_ID>
+    <LOADRECURSIVEDATA>N</LOADRECURSIVEDATA>
+    <SHOWCHILDOFSELECTED>N</SHOWCHILDOFSELECTED>
+  </AD_Process_Para>
+  <AD_Process_Para>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ELEMENT_ID>125</AD_ELEMENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>114</AD_PROCESS_ID>
+    <AD_PROCESS_PARA_ID>140</AD_PROCESS_PARA_ID>
+    <AD_REFERENCE_ID>19</AD_REFERENCE_ID>
+    <AD_VAL_RULE_ID>211</AD_VAL_RULE_ID>
+    <COLUMNNAME>AD_Tab_ID</COLUMNNAME>
+    <CREATED>2000-05-23T09:59:41+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Tab within a Window</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <FIELDLENGTH>1</FIELDLENGTH>
+    <HELP>The Tab indicates a tab that displays within a window.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISCENTRALLYMAINTAINED>Y</ISCENTRALLYMAINTAINED>
+    <ISDISPLAYED>Y</ISDISPLAYED>
+    <ISMANDATORY>Y</ISMANDATORY>
+    <ISRANGE>N</ISRANGE>
+    <NAME>Tab</NAME>
+    <SEQNO>10</SEQNO>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <ISENCRYPTED>N</ISENCRYPTED>
+    <EXPORT_ID>VIS_140</EXPORT_ID>
+    <LOADRECURSIVEDATA>N</LOADRECURSIVEDATA>
+    <SHOWCHILDOFSELECTED>N</SHOWCHILDOFSELECTED>
+  </AD_Process_Para>
+</NewDataSet>

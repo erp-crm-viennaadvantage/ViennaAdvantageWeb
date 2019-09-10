@@ -1,0 +1,196 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AD_FieldGroup">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AD_CLIENT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_FIELDGROUP_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_ORG_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="CREATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CREATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="ENTITYTYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ISACTIVE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="UPDATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="EXPORT_ID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AD_FieldGroup>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FIELDGROUP_ID>121</AD_FIELDGROUP_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2003-06-03T11:30:39+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>Internal Setting</NAME>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>1005361</UPDATEDBY>
+    <EXPORT_ID>VIS_121</EXPORT_ID>
+  </AD_FieldGroup>
+  <AD_FieldGroup>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FIELDGROUP_ID>1000004</AD_FIELDGROUP_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2010-06-08T11:48:33+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>IMAP Server Setting</NAME>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1000004</EXPORT_ID>
+  </AD_FieldGroup>
+  <AD_FieldGroup>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FIELDGROUP_ID>1000005</AD_FIELDGROUP_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2010-06-08T11:49:07+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>Other Setting</NAME>
+    <UPDATED>2017-02-20T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1000005</EXPORT_ID>
+  </AD_FieldGroup>
+  <AD_FieldGroup>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FIELDGROUP_ID>1000006</AD_FIELDGROUP_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2010-06-08T11:48:45+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>SMTP Server Setting</NAME>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1000006</EXPORT_ID>
+  </AD_FieldGroup>
+  <AD_FieldGroup>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FIELDGROUP_ID>117</AD_FIELDGROUP_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2002-09-15T03:54:32+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>Statistics</NAME>
+    <UPDATED>2017-02-20T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <EXPORT_ID>VIS_117</EXPORT_ID>
+  </AD_FieldGroup>
+  <AD_FieldGroup>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FIELDGROUP_ID>1000003</AD_FIELDGROUP_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2010-05-25T16:42:32+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>Alert Condition</NAME>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1000003</EXPORT_ID>
+  </AD_FieldGroup>
+  <AD_FieldGroup>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FIELDGROUP_ID>1000002</AD_FIELDGROUP_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2010-05-25T16:41:50+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>Other Condition</NAME>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1000002</EXPORT_ID>
+  </AD_FieldGroup>
+  <AD_FieldGroup>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FIELDGROUP_ID>1000046</AD_FIELDGROUP_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2014-10-17T07:58:17+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>Custom where clause</NAME>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1000044</EXPORT_ID>
+  </AD_FieldGroup>
+  <AD_FieldGroup>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FIELDGROUP_ID>1000044</AD_FIELDGROUP_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2014-10-17T07:17:12+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>Settings</NAME>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1000045</EXPORT_ID>
+  </AD_FieldGroup>
+  <AD_FieldGroup>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FIELDGROUP_ID>1000045</AD_FIELDGROUP_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2014-10-17T07:57:32+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>Existing User Query</NAME>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1000046</EXPORT_ID>
+  </AD_FieldGroup>
+  <AD_FieldGroup>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FIELDGROUP_ID>1000047</AD_FIELDGROUP_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2014-10-17T07:58:44+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>Calculate</NAME>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1000047</EXPORT_ID>
+  </AD_FieldGroup>
+  <AD_FieldGroup>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FIELDGROUP_ID>103</AD_FIELDGROUP_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2001-02-07T08:54:04+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>Amounts</NAME>
+    <UPDATED>2017-02-20T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <EXPORT_ID>VIS_103</EXPORT_ID>
+  </AD_FieldGroup>
+  <AD_FieldGroup>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FIELDGROUP_ID>102</AD_FIELDGROUP_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2001-02-07T08:53:45+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>Quantities</NAME>
+    <UPDATED>2017-02-20T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <EXPORT_ID>VIS_102</EXPORT_ID>
+  </AD_FieldGroup>
+</NewDataSet>

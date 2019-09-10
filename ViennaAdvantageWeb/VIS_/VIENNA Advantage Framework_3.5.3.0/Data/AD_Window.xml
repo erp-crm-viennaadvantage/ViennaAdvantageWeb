@@ -1,0 +1,722 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="AD_Window" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AD_Window" msprop:BaseTable.0="AD_WINDOW">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AD_CLIENT_ID" msprop:BaseColumn="AD_CLIENT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_COLOR_ID" msprop:BaseColumn="AD_COLOR_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_CTXAREA_ID" msprop:BaseColumn="AD_CTXAREA_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_IMAGE_ID" msprop:BaseColumn="AD_IMAGE_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_ORG_ID" msprop:BaseColumn="AD_ORG_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_WINDOW_ID" msprop:BaseColumn="AD_WINDOW_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="CREATED" msprop:BaseColumn="CREATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CREATEDBY" msprop:BaseColumn="CREATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="DESCRIPTION" msprop:BaseColumn="DESCRIPTION" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ENTITYTYPE" msprop:BaseColumn="ENTITYTYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" msprop:BaseColumn="HELP" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISACTIVE" msprop:BaseColumn="ISACTIVE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISBETAFUNCTIONALITY" msprop:BaseColumn="ISBETAFUNCTIONALITY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISCUSTOMDEFAULT" msprop:BaseColumn="ISCUSTOMDEFAULT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISDEFAULT" msprop:BaseColumn="ISDEFAULT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" msprop:BaseColumn="NAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="PROCESSING" msprop:BaseColumn="PROCESSING" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATED" msprop:BaseColumn="UPDATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="UPDATEDBY" msprop:BaseColumn="UPDATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="WINHEIGHT" msprop:BaseColumn="WINHEIGHT" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="WINWIDTH" msprop:BaseColumn="WINWIDTH" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="WINDOWTYPE" msprop:BaseColumn="WINDOWTYPE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISSOTRX" msprop:BaseColumn="ISSOTRX" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="DISPLAYNAME" msprop:BaseColumn="DISPLAYNAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="EXPORT_ID" msprop:BaseColumn="EXPORT_ID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>108</AD_WINDOW_ID>
+    <CREATED>2012-12-01T00:00:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Users of the system </DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business aprtner contact.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>User</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2017-02-20T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>User</DISPLAYNAME>
+    <EXPORT_ID>VIS_108</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>100</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Tables and Columns</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Table and Column Window defines all tables with their columns</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Table and Column</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINHEIGHT>0</WINHEIGHT>
+    <WINWIDTH>0</WINWIDTH>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Table and Column</DISPLAYNAME>
+    <EXPORT_ID>VIS_100</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>101</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain System References</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Reference Window defines field/display types and validations. This window is for System Admin use only.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Reference</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Reference</DISPLAYNAME>
+    <EXPORT_ID>VIS_101</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>102</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Windows, Tabs &amp; Fields</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Window, Tab &amp; Field Window defines the presentation of tables and columns within each window.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Window, Tab &amp; Field</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Window, Tab &amp; Field</DISPLAYNAME>
+    <EXPORT_ID>VIS_102</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>103</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain dynamic Validation Rules for columns and fields</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Validation Rules Window defines all dynamic rules used when entering and maintaining columns and fields.  This window is for System Admin use only.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Validation Rules</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Validation Rules</DISPLAYNAME>
+    <EXPORT_ID>VIS_103</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>104</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Information and Error Messages</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Message Window defines the Message Text and Message Tips for each system generated message.  It is for System Admin use only.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Message</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Message</DISPLAYNAME>
+    <EXPORT_ID>VIS_104</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>105</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Menu</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Maintain Menu Window defines the Menu which will display.  It is for System Admin use only.  The menu items that each user will see depends upon the security defined.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Menu</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Menu</DISPLAYNAME>
+    <EXPORT_ID>VIS_105</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>113</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Workflow</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Workflow Window defines Workflows in the system, the access level for the Workflow and the Nodes or Steps within the Workflow.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Workflow</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Workflow</DISPLAYNAME>
+    <EXPORT_ID>VIS_113</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>114</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Tasks</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Maintain Tasks window defines the different tasks used in workflows and the access level for those tasks.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Task</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Task</DISPLAYNAME>
+    <EXPORT_ID>VIS_114</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>151</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain System Elements</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The System Element Window is the Central Repository for Field Names Descriptions and Help/Comments</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>System Element</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <WINHEIGHT>0</WINHEIGHT>
+    <WINWIDTH>0</WINWIDTH>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>System Element</DISPLAYNAME>
+    <EXPORT_ID>VIS_151</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>165</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Reports &amp; Processes</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Report &amp; Process Window is used to define the parameters and access rules for every Report and Process within the system.  This window is for System Admin use only.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Report &amp; Process</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Report &amp; Process</DISPLAYNAME>
+    <EXPORT_ID>VIS_165</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>180</AD_WINDOW_ID>
+    <CREATED>2000-05-16T10:22:14+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Report Views</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Report View Window defines the views used when generating reports.  This window is for System Admin use only.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Report View</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Report View</DISPLAYNAME>
+    <EXPORT_ID>VIS_180</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>187</AD_WINDOW_ID>
+    <CREATED>2000-07-14T06:38:09+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Special Forms</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Forms Window defines any window which is not automatically generated.  For System Admin use only.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Form</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Form</DISPLAYNAME>
+    <EXPORT_ID>VIS_187</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>200</AD_WINDOW_ID>
+    <CREATED>2001-01-12T06:58:09+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Define Field Group</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Field Group Window allows you to define subsections in a tab.  For System Admin use only.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Field Group</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Field Group</DISPLAYNAME>
+    <EXPORT_ID>VIS_200</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>213</AD_WINDOW_ID>
+    <CREATED>2001-04-25T06:27:06+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Define how you calculate your performance measures</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Performance Measure Calculation defines how performance measures will be calculated. 
+The sql needs to return a single value.  Please check examples.&lt;br&gt;
+The date trestriction is defined in the Goal. 
+Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Performance Measure Calculation</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Performance Measure Calculation</DISPLAYNAME>
+    <EXPORT_ID>VIS_213</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>227</AD_WINDOW_ID>
+    <CREATED>2001-09-06T10:20:55+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Images and Icons</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>System Image</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>System Image</DISPLAYNAME>
+    <EXPORT_ID>VIS_227</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>231</AD_WINDOW_ID>
+    <CREATED>2001-09-06T10:43:18+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Workbench</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>Workbenches are a collection of Windows</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>Y</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Workbench</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Workbench</DISPLAYNAME>
+    <EXPORT_ID>VIS_231</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>285</AD_WINDOW_ID>
+    <CREATED>2003-06-20T05:00:38+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Data Replication Strategy</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not syncronize Application Dictionary items.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>Y</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Replication Strategy</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Replication Strategy</DISPLAYNAME>
+    <EXPORT_ID>VIS_285</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>299</AD_WINDOW_ID>
+    <CREATED>2004-01-02T13:27:28+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Responsible for Workflow Execution</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Workflow Responsible</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Workflow Responsible</DISPLAYNAME>
+    <EXPORT_ID>VIS_299</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>364</AD_WINDOW_ID>
+    <CREATED>2005-12-24T06:13:05+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Performance Color Schema</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  ViennaAdvantage support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Performance Color Schema</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <WINHEIGHT>0</WINHEIGHT>
+    <WINWIDTH>0</WINWIDTH>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Performance Color Schema</DISPLAYNAME>
+    <EXPORT_ID>VIS_364</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>381</AD_WINDOW_ID>
+    <CREATED>2006-06-11T23:52:09+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain System Entity Type</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The entity type determines the ownership of Application Dictionary entries.  The types "Dictionary" and "Vienna" should not be used and are maintainted by ViennaAdvantage(i.e. all changes are reversed during migration to the current definition).</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Entity Type</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <WINHEIGHT>0</WINHEIGHT>
+    <WINWIDTH>0</WINWIDTH>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Entity Type</DISPLAYNAME>
+    <EXPORT_ID>VIS_381</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>385</AD_WINDOW_ID>
+    <CREATED>2006-06-18T05:47:44+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Define Info and search/select Window</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The Info window is used to search and select records as well as display information relevant to the selection.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Info Window</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINHEIGHT>0</WINHEIGHT>
+    <WINWIDTH>0</WINWIDTH>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Info Window</DISPLAYNAME>
+    <EXPORT_ID>VIS_385</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>400</AD_WINDOW_ID>
+    <CREATED>2007-05-24T23:02:15+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <DESCRIPTION>Maintain Business Domain Area Terminology</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The same entities may be called differently in different contexts. Example: a Business Partner is called Customer in the Sales area and Vendor or Supplier in Purchasing.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Context Area</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <WINHEIGHT>0</WINHEIGHT>
+    <WINWIDTH>0</WINWIDTH>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Context Area</DISPLAYNAME>
+    <EXPORT_ID>VIS_400</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>407</AD_WINDOW_ID>
+    <CREATED>2007-09-15T03:12:46+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <DESCRIPTION>Maintain Accounting Document Base Types</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>The accounting document base type determines how the transaction records are accounted for.  This allows to create custom documents and accounting rules.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Document Base Type</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <WINHEIGHT>0</WINHEIGHT>
+    <WINWIDTH>0</WINWIDTH>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Document Base Type</DISPLAYNAME>
+    <EXPORT_ID>VIS_407</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>332</AD_WINDOW_ID>
+    <CREATED>2004-06-15T22:03:18+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Audit process use</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>Process Instance Information</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Process Audit</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINHEIGHT>0</WINHEIGHT>
+    <WINWIDTH>0</WINWIDTH>
+    <WINDOWTYPE>Q</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Process Audit</DISPLAYNAME>
+    <EXPORT_ID>VIS_332</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>360</AD_WINDOW_ID>
+    <CREATED>2005-10-24T07:22:30+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Define Reporting Hierarchy</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.
+Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Reporting Hierarchy</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINHEIGHT>0</WINHEIGHT>
+    <WINWIDTH>0</WINWIDTH>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Reporting Hierarchy</DISPLAYNAME>
+    <EXPORT_ID>VIS_360</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>1000098</AD_WINDOW_ID>
+    <CREATED>2012-09-18T11:56:27+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Shortcut</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <WINHEIGHT>0</WINHEIGHT>
+    <WINWIDTH>0</WINWIDTH>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Shortcut</DISPLAYNAME>
+    <EXPORT_ID>VIS_1000098</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>128</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Maintain Attachments</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>For System Maintenance Only.  The Maintain Attachments window is used for diagnostic purposes to display the attributes of an attachment.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Attachment</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>M</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Attachment</DISPLAYNAME>
+    <EXPORT_ID>VIS_128</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>127</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Test Screen</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Test</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>T</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Test</DISPLAYNAME>
+    <EXPORT_ID>VIS_127</EXPORT_ID>
+  </AD_Window>
+  <AD_Window>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_WINDOW_ID>298</AD_WINDOW_ID>
+    <CREATED>2004-01-02T13:13:08+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Monitor all Workflow activities</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>Maintain all Workflow activities</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISCUSTOMDEFAULT>N</ISCUSTOMDEFAULT>
+    <ISDEFAULT>N</ISDEFAULT>
+    <NAME>Workflow Activities (all)</NAME>
+    <PROCESSING>N</PROCESSING>
+    <UPDATED>2015-06-30T19:26:49+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <WINDOWTYPE>T</WINDOWTYPE>
+    <ISSOTRX>N</ISSOTRX>
+    <DISPLAYNAME>Workflow Activities (all)</DISPLAYNAME>
+    <EXPORT_ID>VIS_298</EXPORT_ID>
+  </AD_Window>
+</NewDataSet>

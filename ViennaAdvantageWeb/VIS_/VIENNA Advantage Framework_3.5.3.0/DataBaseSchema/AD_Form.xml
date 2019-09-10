@@ -1,0 +1,88 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AD_Form">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AD_CLIENT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_CTXAREA_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_FORM_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_ORG_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="ACCESSLEVEL" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="CLASSNAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="CREATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CREATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="DESCRIPTION" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ENTITYTYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISACTIVE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISBETAFUNCTIONALITY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="JSPURL" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="UPDATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="ISREPORT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="REPORTPATH" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="SQLQUERY" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="INCLUDEPROCEDURE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="INCLUDEIMAGE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGEFIELD" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGEPATHFIELD" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="PROCEDURENAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISDIRECTPRINT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="FORMGROUP" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="EXPORT_ID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="GROUPTYPE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="DISPLAYNAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AD_Form>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FORM_ID>1000102</AD_FORM_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <ACCESSLEVEL>4</ACCESSLEVEL>
+    <CLASSNAME>VIS.AForms.GenerateXModel</CLASSNAME>
+    <CREATED>2015-07-24T05:56:16+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <NAME>VIS_GenerateXModel</NAME>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <ISREPORT>N</ISREPORT>
+    <INCLUDEPROCEDURE>N</INCLUDEPROCEDURE>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <EXPORT_ID>VIS_1000099</EXPORT_ID>
+    <DISPLAYNAME>VIS_GenerateXModel</DISPLAYNAME>
+  </AD_Form>
+  <AD_Form>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FORM_ID>1000101</AD_FORM_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <ACCESSLEVEL>7</ACCESSLEVEL>
+    <CLASSNAME>VIS.GroupForm</CLASSNAME>
+    <CREATED>2015-05-28T05:52:13+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <NAME>Rights Configurator</NAME>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <ISREPORT>N</ISREPORT>
+    <INCLUDEPROCEDURE>N</INCLUDEPROCEDURE>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <EXPORT_ID>VIS_1000098</EXPORT_ID>
+    <DISPLAYNAME>Rights Configurator</DISPLAYNAME>
+  </AD_Form>
+</NewDataSet>

@@ -1,0 +1,274 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="AD_Field" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AD_Field" msprop:BaseTable.0="AD_FIELD">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AD_CLIENT_ID" msprop:BaseColumn="AD_CLIENT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_COLUMN_ID" msprop:BaseColumn="AD_COLUMN_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_FIELDGROUP_ID" msprop:BaseColumn="AD_FIELDGROUP_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_FIELD_ID" msprop:BaseColumn="AD_FIELD_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_ORG_ID" msprop:BaseColumn="AD_ORG_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_REFERENCE_ID" msprop:BaseColumn="AD_REFERENCE_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_TAB_ID" msprop:BaseColumn="AD_TAB_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="CREATED" msprop:BaseColumn="CREATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CREATEDBY" msprop:BaseColumn="CREATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="DEFAULTVALUE" msprop:BaseColumn="DEFAULTVALUE" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="DESCRIPTION" msprop:BaseColumn="DESCRIPTION" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="DISPLAYLENGTH" msprop:BaseColumn="DISPLAYLENGTH" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="DISPLAYLOGIC" msprop:BaseColumn="DISPLAYLOGIC" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ENTITYTYPE" msprop:BaseColumn="ENTITYTYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" msprop:BaseColumn="HELP" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISACTIVE" msprop:BaseColumn="ISACTIVE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISCENTRALLYMAINTAINED" msprop:BaseColumn="ISCENTRALLYMAINTAINED" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISDEFAULTFOCUS" msprop:BaseColumn="ISDEFAULTFOCUS" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISDISPLAYED" msprop:BaseColumn="ISDISPLAYED" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISENCRYPTED" msprop:BaseColumn="ISENCRYPTED" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISFIELDONLY" msprop:BaseColumn="ISFIELDONLY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISHEADING" msprop:BaseColumn="ISHEADING" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISMANDATORYUI" msprop:BaseColumn="ISMANDATORYUI" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISREADONLY" msprop:BaseColumn="ISREADONLY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISSAMELINE" msprop:BaseColumn="ISSAMELINE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="MRSEQNO" msprop:BaseColumn="MRSEQNO" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="NAME" msprop:BaseColumn="NAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="OBSCURETYPE" msprop:BaseColumn="OBSCURETYPE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQNO" msprop:BaseColumn="SEQNO" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="SORTNO" msprop:BaseColumn="SORTNO" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="UPDATED" msprop:BaseColumn="UPDATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="UPDATEDBY" msprop:BaseColumn="UPDATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="MAXHEIGHT" msprop:BaseColumn="MAXHEIGHT" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="MAXWIDTH" msprop:BaseColumn="MAXWIDTH" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="ISCOPY" msprop:BaseColumn="ISCOPY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ZOOMWINDOW_ID" msprop:BaseColumn="ZOOMWINDOW_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="EXPORT_ID" msprop:BaseColumn="EXPORT_ID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="MOBILELISTINGFORMAT" msprop:BaseColumn="MOBILELISTINGFORMAT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="AD_INFOWINDOW_ID" msprop:BaseColumn="AD_INFOWINDOW_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="MRISDISPLAYED" msprop:BaseColumn="MRISDISPLAYED" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="COLUMNWIDTH" msprop:BaseColumn="COLUMNWIDTH" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AD_Field>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_COLUMN_ID>1001363</AD_COLUMN_ID>
+    <AD_FIELD_ID>1001407</AD_FIELD_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_TAB_ID>100</AD_TAB_ID>
+    <CREATED>2011-03-05T16:12:34+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <DESCRIPTION>Base Table for Sub-Tables</DESCRIPTION>
+    <DISPLAYLENGTH>10</DISPLAYLENGTH>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <HELP>Table reference for sub tables</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISCENTRALLYMAINTAINED>Y</ISCENTRALLYMAINTAINED>
+    <ISDEFAULTFOCUS>N</ISDEFAULTFOCUS>
+    <ISDISPLAYED>N</ISDISPLAYED>
+    <ISENCRYPTED>N</ISENCRYPTED>
+    <ISFIELDONLY>N</ISFIELDONLY>
+    <ISHEADING>N</ISHEADING>
+    <ISREADONLY>N</ISREADONLY>
+    <ISSAMELINE>N</ISSAMELINE>
+    <MRSEQNO>0</MRSEQNO>
+    <NAME>Base Table</NAME>
+    <SEQNO>0</SEQNO>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1001407</EXPORT_ID>
+  </AD_Field>
+  <AD_Field>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_COLUMN_ID>1001365</AD_COLUMN_ID>
+    <AD_FIELD_ID>1001409</AD_FIELD_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_TAB_ID>100</AD_TAB_ID>
+    <CREATED>2011-03-05T16:12:36+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <DESCRIPTION>Date Column in table</DESCRIPTION>
+    <DISPLAYLENGTH>10</DISPLAYLENGTH>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISCENTRALLYMAINTAINED>Y</ISCENTRALLYMAINTAINED>
+    <ISDEFAULTFOCUS>N</ISDEFAULTFOCUS>
+    <ISDISPLAYED>N</ISDISPLAYED>
+    <ISENCRYPTED>N</ISENCRYPTED>
+    <ISFIELDONLY>N</ISFIELDONLY>
+    <ISHEADING>N</ISHEADING>
+    <ISREADONLY>N</ISREADONLY>
+    <ISSAMELINE>N</ISSAMELINE>
+    <MRSEQNO>0</MRSEQNO>
+    <NAME>Date Column</NAME>
+    <SEQNO>0</SEQNO>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1001409</EXPORT_ID>
+  </AD_Field>
+  <AD_Field>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_COLUMN_ID>1001366</AD_COLUMN_ID>
+    <AD_FIELD_ID>1001410</AD_FIELD_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_TAB_ID>100</AD_TAB_ID>
+    <CREATED>2011-03-05T16:12:36+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <DISPLAYLENGTH>1</DISPLAYLENGTH>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISCENTRALLYMAINTAINED>Y</ISCENTRALLYMAINTAINED>
+    <ISDEFAULTFOCUS>N</ISDEFAULTFOCUS>
+    <ISDISPLAYED>N</ISDISPLAYED>
+    <ISENCRYPTED>N</ISENCRYPTED>
+    <ISFIELDONLY>N</ISFIELDONLY>
+    <ISHEADING>N</ISHEADING>
+    <ISREADONLY>N</ISREADONLY>
+    <ISSAMELINE>N</ISSAMELINE>
+    <MRSEQNO>0</MRSEQNO>
+    <NAME>Export View</NAME>
+    <SEQNO>0</SEQNO>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1001410</EXPORT_ID>
+  </AD_Field>
+  <AD_Field>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_COLUMN_ID>1001368</AD_COLUMN_ID>
+    <AD_FIELD_ID>1001414</AD_FIELD_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_TAB_ID>100</AD_TAB_ID>
+    <CREATED>2011-03-05T16:12:37+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <DESCRIPTION>Type of Sub-Table</DESCRIPTION>
+    <DISPLAYLENGTH>1</DISPLAYLENGTH>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <HELP>Automatic support for Delta and History Tables</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISCENTRALLYMAINTAINED>Y</ISCENTRALLYMAINTAINED>
+    <ISDEFAULTFOCUS>N</ISDEFAULTFOCUS>
+    <ISDISPLAYED>N</ISDISPLAYED>
+    <ISENCRYPTED>N</ISENCRYPTED>
+    <ISFIELDONLY>N</ISFIELDONLY>
+    <ISHEADING>N</ISHEADING>
+    <ISREADONLY>N</ISREADONLY>
+    <ISSAMELINE>N</ISSAMELINE>
+    <MRSEQNO>0</MRSEQNO>
+    <NAME>SubTableType</NAME>
+    <SEQNO>0</SEQNO>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1001414</EXPORT_ID>
+  </AD_Field>
+  <AD_Field>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_COLUMN_ID>16055</AD_COLUMN_ID>
+    <AD_FIELD_ID>1001419</AD_FIELD_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_TAB_ID>101</AD_TAB_ID>
+    <CREATED>2011-03-05T16:12:59+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <DISPLAYLENGTH>10</DISPLAYLENGTH>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISCENTRALLYMAINTAINED>Y</ISCENTRALLYMAINTAINED>
+    <ISDEFAULTFOCUS>N</ISDEFAULTFOCUS>
+    <ISDISPLAYED>N</ISDISPLAYED>
+    <ISENCRYPTED>N</ISENCRYPTED>
+    <ISFIELDONLY>N</ISFIELDONLY>
+    <ISHEADING>N</ISHEADING>
+    <ISREADONLY>N</ISREADONLY>
+    <ISSAMELINE>N</ISSAMELINE>
+    <MRSEQNO>0</MRSEQNO>
+    <NAME>TableUID</NAME>
+    <SEQNO>0</SEQNO>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1001419</EXPORT_ID>
+  </AD_Field>
+  <AD_Field>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_COLUMN_ID>1001367</AD_COLUMN_ID>
+    <AD_FIELD_ID>1001411</AD_FIELD_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_TAB_ID>100</AD_TAB_ID>
+    <CREATED>2011-03-05T16:12:37+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <DESCRIPTION>Import this view from a SQL file</DESCRIPTION>
+    <DISPLAYLENGTH>1</DISPLAYLENGTH>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>This process will create or replace the view definition in VAdvantage Application Dictionary using the CREATE view statement from a SQL file. 
+</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISCENTRALLYMAINTAINED>Y</ISCENTRALLYMAINTAINED>
+    <ISDEFAULTFOCUS>N</ISDEFAULTFOCUS>
+    <ISDISPLAYED>N</ISDISPLAYED>
+    <ISENCRYPTED>N</ISENCRYPTED>
+    <ISFIELDONLY>N</ISFIELDONLY>
+    <ISHEADING>N</ISHEADING>
+    <ISREADONLY>N</ISREADONLY>
+    <ISSAMELINE>N</ISSAMELINE>
+    <MRSEQNO>0</MRSEQNO>
+    <NAME>Import View</NAME>
+    <SEQNO>0</SEQNO>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1001411</EXPORT_ID>
+  </AD_Field>
+  <AD_Field>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_COLUMN_ID>4198</AD_COLUMN_ID>
+    <AD_FIELD_ID>3203</AD_FIELD_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_TAB_ID>105</AD_TAB_ID>
+    <CREATED>2000-03-20T00:17:42+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DISPLAYLENGTH>23</DISPLAYLENGTH>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISCENTRALLYMAINTAINED>Y</ISCENTRALLYMAINTAINED>
+    <ISDEFAULTFOCUS>N</ISDEFAULTFOCUS>
+    <ISDISPLAYED>Y</ISDISPLAYED>
+    <ISENCRYPTED>N</ISENCRYPTED>
+    <ISFIELDONLY>N</ISFIELDONLY>
+    <ISHEADING>N</ISHEADING>
+    <ISREADONLY>N</ISREADONLY>
+    <ISSAMELINE>Y</ISSAMELINE>
+    <MRSEQNO>170</MRSEQNO>
+    <NAME>Process Now</NAME>
+    <SEQNO>150</SEQNO>
+    <UPDATED>2018-07-12T12:06:56+05:30</UPDATED>
+    <UPDATEDBY>1005346</UPDATEDBY>
+    <EXPORT_ID>VIS_3203</EXPORT_ID>
+  </AD_Field>
+  <AD_Field>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_COLUMN_ID>4207</AD_COLUMN_ID>
+    <AD_FIELD_ID>3205</AD_FIELD_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_TAB_ID>106</AD_TAB_ID>
+    <CREATED>2000-03-20T00:17:42+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DISPLAYLENGTH>23</DISPLAYLENGTH>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISCENTRALLYMAINTAINED>Y</ISCENTRALLYMAINTAINED>
+    <ISDEFAULTFOCUS>N</ISDEFAULTFOCUS>
+    <ISDISPLAYED>N</ISDISPLAYED>
+    <ISENCRYPTED>N</ISENCRYPTED>
+    <ISFIELDONLY>N</ISFIELDONLY>
+    <ISHEADING>N</ISHEADING>
+    <ISREADONLY>N</ISREADONLY>
+    <ISSAMELINE>Y</ISSAMELINE>
+    <MRSEQNO>350</MRSEQNO>
+    <NAME>Process Now</NAME>
+    <SEQNO>0</SEQNO>
+    <UPDATED>2018-07-12T06:17:04+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_3205</EXPORT_ID>
+  </AD_Field>
+</NewDataSet>

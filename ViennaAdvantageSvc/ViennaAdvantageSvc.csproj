@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A3D3A2F-81B9-41C5-A297-DF96E78226B8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ViennaAdvantageSvc</RootNamespace>
+    <AssemblyName>ViennaAdvantageSvc</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ModelLibrary">
+      <HintPath>..\..\..\..\..\Vienna Base Code\201907 VAdvantage Source Code Ver 3.5.29.0-July-2019_2\ViennaAdvantageWeb\ModelLibrary\bin\Debug\ModelLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ViennaAdvantageWeb\bin\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VA027Svc, Version=1.0.13.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\VA027Svc.dll</HintPath>
+    </Reference>
+    <Reference Include="VAMFGSvc, Version=1.0.13.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\VAMFGSvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\MAsset.cs" />
+    <Compile Include="Model\MAssetDelivery.cs" />
+    <Compile Include="Model\MBOM.cs" />
+    <Compile Include="Model\MBPartner.cs" />
+    <Compile Include="Model\MCash.cs" />
+    <Compile Include="Model\MCashLine.cs" />
+    <Compile Include="Model\MCharge.cs" />
+    <Compile Include="Model\MInOut.cs" />
+    <Compile Include="Model\MInOutConfirm.cs" />
+    <Compile Include="Model\MInOutLine.cs" />
+    <Compile Include="Model\MInOutLineConfirm.cs" />
+    <Compile Include="Model\MInOutLineMA.cs" />
+    <Compile Include="Model\MINT15AccountingSchemaOrg.cs" />
+    <Compile Include="Model\MINT15RevenueService.cs" />
+    <Compile Include="Model\MInventory.cs" />
+    <Compile Include="Model\MInventoryLine.cs" />
+    <Compile Include="Model\MInvoice.cs" />
+    <Compile Include="Model\MInvoiceLine.cs" />
+    <Compile Include="Model\MInvoicePaySchedule.cs" />
+    <Compile Include="Model\MInvoiceTax.cs" />
+    <Compile Include="Model\MJournal.cs" />
+    <Compile Include="Model\MJournalLine.cs" />
+    <Compile Include="Model\MLandedCost.cs" />
+    <Compile Include="Model\MLandedCostAllocation.cs" />
+    <Compile Include="Model\MMatchInv.cs" />
+    <Compile Include="Model\MMatchPO.cs" />
+    <Compile Include="Model\MMovement.cs" />
+    <Compile Include="Model\MMovementConfirm.cs" />
+    <Compile Include="Model\MMovementLine.cs" />
+    <Compile Include="Model\MMovementLineConfirm.cs" />
+    <Compile Include="Model\MMovementLineMA.cs" />
+    <Compile Include="Model\MOrder.cs" />
+    <Compile Include="Model\MOrderLine.cs" />
+    <Compile Include="Model\MOrderTax.cs" />
+    <Compile Include="Model\MPayment.cs" />
+    <Compile Include="Model\MPaymentAllocate.cs" />
+    <Compile Include="Model\MPaymentTerm.cs" />
+    <Compile Include="Model\MPaySchedule.cs" />
+    <Compile Include="Model\MProduct.cs" />
+    <Compile Include="Model\MProduction.cs" />
+    <Compile Include="Model\MProductionLine.cs" />
+    <Compile Include="Model\MRevenueRecognition.cs" />
+    <Compile Include="Model\MRevenueRecognitionPlan.cs" />
+    <Compile Include="Model\MRevenueRecognitionRun.cs" />
+    <Compile Include="Model\MVAMFGMWorkOrder.cs" />
+    <Compile Include="Model\MVAMFGMWrkOdrTransaction.cs" />
+    <Compile Include="Model\MVAMFGMWrkOdrTrnsctionLine.cs" />
+    <Compile Include="Model\VA027_GenPayment.cs" />
+    <Compile Include="Model\X_GL_Journal.cs" />
+    <Compile Include="Model\X_GL_JournalLine.cs" />
+    <Compile Include="Model\X_M_Inventory.cs" />
+    <Compile Include="Model\X_M_InventoryLine.cs" />
+    <Compile Include="Model\X_M_Production.cs" />
+    <Compile Include="Model\X_VAMFG_M_WrkOdrTrnsctionLine.cs" />
+    <Compile Include="Process\GeneratePushLines.cs" />
+    <Compile Include="Model\MVAMFGMWorkOrderComponent.cs" />
+    <Compile Include="Process\InOutCreateInvoice.cs" />
+    <Compile Include="Process\INT15_CreateBounceDoc.cs" />
+    <Compile Include="Process\INT15_ImportedDataCompletion.cs" />
+    <Compile Include="Process\MWorkOrderTxnUtil.cs" />
+    <Compile Include="Process\ProductionReverse.cs" />
+    <Compile Include="Process\ReCostingCalculation.cs" />
+    <Compile Include="Process\VA033_GenCostSheetInvoices.cs" />
+    <Compile Include="Model\X_A_Asset.cs" />
+    <Compile Include="Model\X_A_Asset_Delivery.cs" />
+    <Compile Include="Model\X_C_CashLine.cs" />
+    <Compile Include="Model\X_C_Invoice.cs" />
+    <Compile Include="Model\X_C_InvoiceLine.cs" />
+    <Compile Include="Model\X_C_InvoicePaySchedule.cs" />
+    <Compile Include="Model\X_C_InvoiceTax.cs" />
+    <Compile Include="Model\X_C_LandedCost.cs" />
+    <Compile Include="Model\X_C_LandedCostAllocation.cs" />
+    <Compile Include="Model\X_C_Order.cs" />
+    <Compile Include="Model\X_C_OrderLine.cs" />
+    <Compile Include="Model\X_C_OrderTax.cs" />
+    <Compile Include="Model\X_C_Payment.cs" />
+    <Compile Include="Model\X_C_PaymentAllocate.cs" />
+    <Compile Include="Model\X_C_PaymentTerm.cs" />
+    <Compile Include="Model\X_C_PaySchedule.cs" />
+    <Compile Include="Model\X_C_RevenueRecognition.cs" />
+    <Compile Include="Model\X_C_RevenueRecognition_Plan.cs" />
+    <Compile Include="Model\X_C_RevenueRecognition_Run.cs" />
+    <Compile Include="Model\X_INT15_AccountingSchemaOrg.cs" />
+    <Compile Include="Model\X_INT15_AcctSchema_Default.cs" />
+    <Compile Include="Model\X_INT15_RevenueService.cs" />
+    <Compile Include="Model\X_M_BOM.cs" />
+    <Compile Include="Model\X_M_InOut.cs" />
+    <Compile Include="Model\X_M_InOutConfirm.cs" />
+    <Compile Include="Model\X_M_InOutLine.cs" />
+    <Compile Include="Model\X_M_InOutLineConfirm.cs" />
+    <Compile Include="Model\X_M_InOutLineMA.cs" />
+    <Compile Include="Model\X_M_MatchInv.cs" />
+    <Compile Include="Model\X_M_MatchPO.cs" />
+    <Compile Include="Model\X_M_Movement.cs" />
+    <Compile Include="Model\X_M_MovementConfirm.cs" />
+    <Compile Include="Model\X_M_MovementLine.cs" />
+    <Compile Include="Model\X_M_MovementLineConfirm.cs" />
+    <Compile Include="Model\X_M_MovementLineMA.cs" />
+    <Compile Include="Model\X_VAMFG_M_WorkOrder.cs" />
+    <Compile Include="Model\X_VAMFG_M_WrkOdrTransaction.cs" />
+    <Compile Include="Process\AssetWindowSticker.cs" />
+    <Compile Include="Process\BOMValidate.cs" />
+    <Compile Include="Process\GOM01_ImportedDataCompletion.cs" />
+    <Compile Include="Process\InOutCreateConfirm.cs" />
+    <Compile Include="Process\INT15_RevenueRecognitionRun.cs" />
+    <Compile Include="Process\INT15_ReverseRecognitionRun.cs" />
+    <Compile Include="Process\INT15_UpdateRFQResponse.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

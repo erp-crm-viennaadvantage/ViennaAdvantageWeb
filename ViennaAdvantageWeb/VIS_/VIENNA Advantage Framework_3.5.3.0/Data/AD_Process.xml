@@ -1,0 +1,228 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="AD_Process" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AD_Process" msprop:BaseTable.0="AD_PROCESS">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AD_CLIENT_ID" msprop:BaseColumn="AD_CLIENT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_CTXAREA_ID" msprop:BaseColumn="AD_CTXAREA_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_ORG_ID" msprop:BaseColumn="AD_ORG_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_PRINTFORMAT_ID" msprop:BaseColumn="AD_PRINTFORMAT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_PROCESS_ID" msprop:BaseColumn="AD_PROCESS_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_REPORTVIEW_ID" msprop:BaseColumn="AD_REPORTVIEW_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_WORKFLOW_ID" msprop:BaseColumn="AD_WORKFLOW_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="ACCESSLEVEL" msprop:BaseColumn="ACCESSLEVEL" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="CLASSNAME" msprop:BaseColumn="CLASSNAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="CREATED" msprop:BaseColumn="CREATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CREATEDBY" msprop:BaseColumn="CREATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="DESCRIPTION" msprop:BaseColumn="DESCRIPTION" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ENTITYTYPE" msprop:BaseColumn="ENTITYTYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" msprop:BaseColumn="HELP" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISACTIVE" msprop:BaseColumn="ISACTIVE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISBETAFUNCTIONALITY" msprop:BaseColumn="ISBETAFUNCTIONALITY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISDIRECTPRINT" msprop:BaseColumn="ISDIRECTPRINT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISREPORT" msprop:BaseColumn="ISREPORT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISSERVERPROCESS" msprop:BaseColumn="ISSERVERPROCESS" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" msprop:BaseColumn="NAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="PROCEDURENAME" msprop:BaseColumn="PROCEDURENAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="STATISTIC_COUNT" msprop:BaseColumn="STATISTIC_COUNT" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="STATISTIC_SECONDS" msprop:BaseColumn="STATISTIC_SECONDS" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="UPDATED" msprop:BaseColumn="UPDATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="UPDATEDBY" msprop:BaseColumn="UPDATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="VALUE" msprop:BaseColumn="VALUE" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="WORKFLOWVALUE" msprop:BaseColumn="WORKFLOWVALUE" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="AD_IMAGE_ID" msprop:BaseColumn="AD_IMAGE_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="ISEXTERNAL" msprop:BaseColumn="ISEXTERNAL" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISDASHBOARD" msprop:BaseColumn="ISDASHBOARD" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDMENU" msprop:BaseColumn="ADDMENU" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="AD_BVIEW_ID" msprop:BaseColumn="AD_BVIEW_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_REPORTTEMPLATE_ID" msprop:BaseColumn="AD_REPORTTEMPLATE_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="EXPORT_ID" msprop:BaseColumn="EXPORT_ID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISCRYSTALREPORT" msprop:BaseColumn="ISCRYSTALREPORT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="REPORTPATH" msprop:BaseColumn="REPORTPATH" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="SQLQUERY" msprop:BaseColumn="SQLQUERY" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="INCLUDEIMAGE" msprop:BaseColumn="INCLUDEIMAGE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGEFIELD" msprop:BaseColumn="IMAGEFIELD" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGEPATHFIELD" msprop:BaseColumn="IMAGEPATHFIELD" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="AD_REPORTFORMAT_ID" msprop:BaseColumn="AD_REPORTFORMAT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="VA037_BIREPORTID" msprop:BaseColumn="VA037_BIREPORTID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="VA038_BIREPORTID" msprop:BaseColumn="VA038_BIREPORTID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="VA039_BIREPORTID" msprop:BaseColumn="VA039_BIREPORTID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="VA039_JASPERREPORTPATH" msprop:BaseColumn="VA039_JASPERREPORTPATH" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="AD_REPORTMASTER_ID" msprop:BaseColumn="AD_REPORTMASTER_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000237</AD_PROCESS_ID>
+    <ACCESSLEVEL>3</ACCESSLEVEL>
+    <CLASSNAME>VAdvantage.Process.AttachMailToBP</CLASSNAME>
+    <CREATED>2015-09-10T13:31:24+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>AttachMailToBP</NAME>
+    <STATISTIC_COUNT>0</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <VALUE>AttachMailToBP</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <ADDMENU>N</ADDMENU>
+    <EXPORT_ID>VIS_1000230</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000246</AD_PROCESS_ID>
+    <ACCESSLEVEL>7</ACCESSLEVEL>
+    <CLASSNAME>ViennaAdvantage.Process.GetCurrencyConversionRate</CLASSNAME>
+    <CREATED>2016-07-08T11:59:10+05:30</CREATED>
+    <CREATEDBY>1005355</CREATEDBY>
+    <DESCRIPTION>Get all the conversion rate of currencies in which Client deals.</DESCRIPTION>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>Get Currency Conversion Rate</NAME>
+    <STATISTIC_COUNT>0</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2017-02-20T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>1005346</UPDATEDBY>
+    <VALUE>GetCurrencyConversionRate</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <ADDMENU>N</ADDMENU>
+    <EXPORT_ID>VIS_1000240</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000022</AD_PROCESS_ID>
+    <ACCESSLEVEL>4</ACCESSLEVEL>
+    <CLASSNAME>VAdvantage.Process.ViewCreate</CLASSNAME>
+    <CREATED>2011-03-05T14:19:50+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <DESCRIPTION>Create or modify this view in the database</DESCRIPTION>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <HELP>This process will create or replace this view in the database using the view definition in ViennaAdvantage Application Dictionary</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>Create this view in DB</NAME>
+    <STATISTIC_COUNT>0</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <VALUE>AD_CreateThisView</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <EXPORT_ID>VIS_1000022</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000023</AD_PROCESS_ID>
+    <ACCESSLEVEL>4</ACCESSLEVEL>
+    <CLASSNAME>VAdvantage.Process.ViewImportFromDB</CLASSNAME>
+    <CREATED>2011-03-05T14:28:16+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <DESCRIPTION>Import this view from the database</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HELP>This process will create or replace the view definition in ViennaAdvantage Application Dictionary using the view definition in the database. It will create columns, view components and view columns.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>Import this view from DB</NAME>
+    <STATISTIC_COUNT>0</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <VALUE>AD_ImportThisViewFromDB</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <EXPORT_ID>VIS_1000023</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>113</AD_PROCESS_ID>
+    <ACCESSLEVEL>4</ACCESSLEVEL>
+    <CLASSNAME>VAdvantage.Process.WindowCopy</CLASSNAME>
+    <CREATED>2000-03-20T01:05:28+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Copy all Tabs and Fields from other Window</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>Copy Window Tabs</NAME>
+    <STATISTIC_COUNT>0</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <VALUE>AD_Window_Copy</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <EXPORT_ID>VIS_113</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>114</AD_PROCESS_ID>
+    <ACCESSLEVEL>4</ACCESSLEVEL>
+    <CLASSNAME>VAdvantage.Process.TabCopy</CLASSNAME>
+    <CREATED>2000-03-20T01:06:06+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Copy Fields from other Tab</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>Copy Tab Fields</NAME>
+    <STATISTIC_COUNT>0</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <VALUE>AD_Tab_Copy</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <EXPORT_ID>VIS_114</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+</NewDataSet>

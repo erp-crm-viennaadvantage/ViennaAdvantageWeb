@@ -1,0 +1,149 @@
+﻿<div>
+    <div class="VAMFG_main-bom">
+        <div class="VAMFG_div-left-Bom">
+            <div class="VAMFG_div-left-top-bom">
+                <table style="width: 100%">
+                    <tbody>
+                        <tr>
+                            <td style="padding: 4px 12px 2px;">
+                                <label id="@("VAMFG_LblProd_" + ViewBag.WindowNumber)"  class="VAMFG_label-top"></label>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td style="padding: 0px 12px 0px;">
+                                <select id="@("VAMFG_CmbProd_" + ViewBag.WindowNumber)" class="VAMFG_cmb-width100 VAMFG-dropdown"></select>
+                                <input type="button" class="VAMFG-info-btn VAMFG-info-btn-Prod">
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td style="padding: 4px 12px 2px;">
+                                <label id="@("VAMFG_LblBOM_" + ViewBag.WindowNumber)"  class="VAMFG_label-top"></label>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td style="padding: 0px 12px 0px;">
+                                <select id="@("VAMFG_CmbBOM_" + ViewBag.WindowNumber)" class="VAMFG_cmb-width100 VAMFG-dropdown"></select>
+                                <input type="button" class="VAMFG-info-btn VAMFG-info-btn-BOM">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 4px 12px 2px;">
+                                <label id="@("VAMFG_LblAttributeSetInstance_" + ViewBag.WindowNumber)"  class="VAMFG_label-top"></label>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 0px 8px 0px;">
+                                <div id="@("VAMFG_AttributeSetInstanceCmb_" + ViewBag.WindowNumber)" class="VAMFG_cmb-width100 VAMFG-dropdown VAMFG-Attributes"></div>                                
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 4px 12px 2px;">
+                                <label id="@("VAMFG_LblInvoice_" + ViewBag.WindowNumber)" class="VAMFG_label-top "></label>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td style="padding: 0px 12px 0px;">
+                                <select id="@("VAMFG_CmbInvoice_" + ViewBag.WindowNumber)"  class="VAMFG_cmb-width100 VAMFG-dropdown"></select>
+                                <input type="button" class="VAMFG-info-btn VAMFG-info-btn-Inv">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 4px 12px 2px;">
+                                <label id="@("VAMFG_LblOrder_" + ViewBag.WindowNumber)" class="VAMFG_label-top"></label>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td style="padding: 0px 12px 0px;">
+                                <select id="@("VAMFG_CmbOrder_" + ViewBag.WindowNumber)" class="VAMFG_cmb-width100 VAMFG-dropdown"></select>
+                                <input type="button" class="VAMFG-info-btn VAMFG-info-btn-Ord">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 4px 12px 2px;">
+                                <label id="@("VAMFG_LblProject_" + ViewBag.WindowNumber)" class="VAMFG_label-top"></label>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td style="padding: 0px 12px 0px;">
+                                <select id="@("VAMFG_CmbProject_" + ViewBag.WindowNumber)" class="VAMFG_cmb-width100 VAMFG-dropdown"></select>
+                                <input type="button" class="VAMFG-info-btn VAMFG-info-btn-Prj">    
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 4px 12px 2px;">
+                                <label id="@("VAMFG_LblRequisition_" + ViewBag.WindowNumber)" class="VAMFG_label-top"></label>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td style="padding: 0px 12px 0px;">
+                                <select id="@("VAMFG_RequisitionCmb_" + ViewBag.WindowNumber)" class="VAMFG_cmb-width100 VAMFG-dropdown"></select>
+                                <input type="button" class="VAMFG-info-btn VAMFG-info-btn-Req">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 4px 12px 2px;">
+                                <label id="@("VAMFG_LblDocStatus_" + ViewBag.WindowNumber)" class="VAMFG_label-top"></label>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td style="padding: 0px 12px 0px;">
+                                <select id="@("VAMFG_DocStatusCmb_" + ViewBag.WindowNumber)" class="VAMFG_cmb-width100"></select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 4px 12px 2px;">
+                                <label id="@("VAMFG_LblQty_" + ViewBag.WindowNumber)" class="VAMFG_label-top"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0px 12px 0px;">
+                                <input type="number" id="@("VAMFG_Qty_" + ViewBag.WindowNumber)" class="VAMFG_cmb-width100" style="cursor:text;"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style='margin-top: 5px;margin-bottom: -10px;'>
+                                <input type="button" id="@("VAMFG_btnRefresh_" + ViewBag.WindowNumber)" class="VAMFG_Pref_btn-2" /></input>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+
+        <div class="VAMFG_div-right-bom">
+            <div class="VAMFG_outer-div-grids-bom">
+                <div class="VAMFG_div-grid-Consume-bom">
+                    <div  id="@("VAMFG_BOMGrid_" + ViewBag.WindowNumber)" class="VAMFG_grid">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="VAMFG_div-right-bottom-bom">
+                <button id="@("VAMFG_PrintButton_"+ViewBag.WindowNumber)" class="VAMFG-btn-print"></button>
+                <button id="@("VAMFG_CancelButton_" + ViewBag.WindowNumber)"  class="VAMFG_btn-cancel-bom"></button>
+                <button id="@("VAMFG_OkButton_" + ViewBag.WindowNumber)"  class="VAMFG_btn-ok-bom"></button>
+            </div>
+        </div>
+
+    </div>
+</div>
+

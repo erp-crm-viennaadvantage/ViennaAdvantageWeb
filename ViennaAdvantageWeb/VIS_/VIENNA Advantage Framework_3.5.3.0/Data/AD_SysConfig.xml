@@ -1,0 +1,70 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="AD_SysConfig" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AD_SysConfig" msprop:BaseTable.0="AD_SYSCONFIG">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AD_CLIENT_ID" msprop:BaseColumn="AD_CLIENT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_ORG_ID" msprop:BaseColumn="AD_ORG_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_SYSCONFIG_ID" msprop:BaseColumn="AD_SYSCONFIG_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="CONFIGURATIONLEVEL" msprop:BaseColumn="CONFIGURATIONLEVEL" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="CREATED" msprop:BaseColumn="CREATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CREATEDBY" msprop:BaseColumn="CREATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="DESCRIPTION" msprop:BaseColumn="DESCRIPTION" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ENTITYTYPE" msprop:BaseColumn="ENTITYTYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="EXPORT_ID" msprop:BaseColumn="EXPORT_ID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISACTIVE" msprop:BaseColumn="ISACTIVE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" msprop:BaseColumn="NAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATED" msprop:BaseColumn="UPDATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="UPDATEDBY" msprop:BaseColumn="UPDATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="VALUE" msprop:BaseColumn="VALUE" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AD_SysConfig>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_SYSCONFIG_ID>1000001</AD_SYSCONFIG_ID>
+    <CREATED>2016-12-22T10:57:48+05:30</CREATED>
+    <CREATEDBY>1005346</CREATEDBY>
+    <EXPORT_ID>VIS_1000001</EXPORT_ID>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>REPORT_PAGE_SIZE</NAME>
+    <UPDATED>2017-04-18T06:03:43+05:30</UPDATED>
+    <UPDATEDBY>1005346</UPDATEDBY>
+    <VALUE>500</VALUE>
+  </AD_SysConfig>
+  <AD_SysConfig>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_SYSCONFIG_ID>1000002</AD_SYSCONFIG_ID>
+    <CREATED>2017-06-15T09:40:30+05:30</CREATED>
+    <CREATEDBY>1005346</CREATEDBY>
+    <EXPORT_ID>VIS_1000002</EXPORT_ID>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>BULK_REPORT_DOWNLOAD</NAME>
+    <UPDATED>2017-06-15T09:40:30+05:30</UPDATED>
+    <UPDATEDBY>1005346</UPDATEDBY>
+    <VALUE>N</VALUE>
+  </AD_SysConfig>
+  <AD_SysConfig>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_SYSCONFIG_ID>1000003</AD_SYSCONFIG_ID>
+    <CREATED>2018-03-22T08:17:06+05:30</CREATED>
+    <CREATEDBY>1005352</CREATEDBY>
+    <EXPORT_ID>VIS_1000003</EXPORT_ID>
+    <ISACTIVE>Y</ISACTIVE>
+    <NAME>DEFAULT_ACCOUNTING_APPLICABLE</NAME>
+    <UPDATED>2018-03-22T08:17:06+05:30</UPDATED>
+    <UPDATEDBY>1005352</UPDATEDBY>
+    <VALUE>N</VALUE>
+  </AD_SysConfig>
+</NewDataSet>

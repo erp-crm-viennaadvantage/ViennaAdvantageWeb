@@ -1,0 +1,275 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AD_Process">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AD_CLIENT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_CTXAREA_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_ORG_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_PRINTFORMAT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_PROCESS_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_REPORTVIEW_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_WORKFLOW_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="ACCESSLEVEL" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="CLASSNAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="CREATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CREATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="DESCRIPTION" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ENTITYTYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISACTIVE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISBETAFUNCTIONALITY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISDIRECTPRINT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISREPORT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISSERVERPROCESS" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="PROCEDURENAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="STATISTIC_COUNT" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="STATISTIC_SECONDS" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="UPDATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="UPDATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="VALUE" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="WORKFLOWVALUE" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="AD_IMAGE_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="ISEXTERNAL" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISDASHBOARD" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDMENU" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="AD_BVIEW_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_REPORTTEMPLATE_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="EXPORT_ID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISCRYSTALREPORT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="REPORTPATH" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="SQLQUERY" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="INCLUDEIMAGE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGEFIELD" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGEPATHFIELD" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="AD_REPORTFORMAT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="VA037_BIREPORTID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="VA038_BIREPORTID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="VA039_BIREPORTID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="VA039_JASPERREPORTPATH" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="AD_REPORTMASTER_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000000</AD_PROCESS_ID>
+    <ACCESSLEVEL>7</ACCESSLEVEL>
+    <CLASSNAME>VAdvantage.Process.MailConfigration</CLASSNAME>
+    <CREATED>2010-06-04T16:42:02+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>Save Mail Configration</NAME>
+    <STATISTIC_COUNT>81</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <VALUE>SaveMailConfigration</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <EXPORT_ID>VIS_1000000</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000199</AD_PROCESS_ID>
+    <ACCESSLEVEL>7</ACCESSLEVEL>
+    <CLASSNAME>ViennaAdvantage.Process.CreateCurrencySourceEntries</CLASSNAME>
+    <CREATED>2012-09-19T17:05:22+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>ReFreshCurrencySource</NAME>
+    <STATISTIC_COUNT>1</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <VALUE>ReFreshCurrencySource</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <EXPORT_ID>VIS_1000199</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000215</AD_PROCESS_ID>
+    <ACCESSLEVEL>7</ACCESSLEVEL>
+    <CLASSNAME>VAdvantage.Process.CreatePendingTranslations</CLASSNAME>
+    <CREATED>2013-01-03T18:40:07+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>Translate Pending Fields</NAME>
+    <STATISTIC_COUNT>9</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <VALUE>TranslatePendingFields</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <EXPORT_ID>VIS_1000213</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>114</AD_PROCESS_ID>
+    <ACCESSLEVEL>4</ACCESSLEVEL>
+    <CLASSNAME>VAdvantage.Process.TabCopy</CLASSNAME>
+    <CREATED>2000-03-20T01:06:06+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Copy Fields from other Tab</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>Copy Tab Fields</NAME>
+    <STATISTIC_COUNT>0</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <VALUE>AD_Tab_Copy</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <EXPORT_ID>VIS_114</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000237</AD_PROCESS_ID>
+    <ACCESSLEVEL>3</ACCESSLEVEL>
+    <CLASSNAME>VAdvantage.Process.AttachMailToBP</CLASSNAME>
+    <CREATED>2015-09-10T13:31:24+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>AttachMailToBP</NAME>
+    <STATISTIC_COUNT>0</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <VALUE>AttachMailToBP</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <ADDMENU>N</ADDMENU>
+    <EXPORT_ID>VIS_1000230</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000251</AD_PROCESS_ID>
+    <ACCESSLEVEL>7</ACCESSLEVEL>
+    <CLASSNAME>VAdvantage.Process.VerifyQueryForAlert</CLASSNAME>
+    <CREATED>2016-09-29T12:36:23+05:30</CREATED>
+    <CREATEDBY>1005360</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>VerifyQuery</NAME>
+    <STATISTIC_COUNT>0</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2016-10-14T12:07:03+05:30</UPDATED>
+    <UPDATEDBY>1005360</UPDATEDBY>
+    <VALUE>VerifyQuery</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <ADDMENU>N</ADDMENU>
+    <EXPORT_ID>VIS_1000244</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000239</AD_PROCESS_ID>
+    <ACCESSLEVEL>4</ACCESSLEVEL>
+    <CLASSNAME>VAdvantage.Process.CreateModuleTabAndFields</CLASSNAME>
+    <CREATED>2015-12-11T10:03:28+05:30</CREATED>
+    <CREATEDBY>1005346</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>Create Tabs and Fields</NAME>
+    <STATISTIC_COUNT>27</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2018-09-19T12:27:21+05:30</UPDATED>
+    <UPDATEDBY>1005343</UPDATEDBY>
+    <VALUE>Create Tabs and Fields</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <ADDMENU>N</ADDMENU>
+    <EXPORT_ID>VIS_1000233</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+  <AD_Process>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000240</AD_PROCESS_ID>
+    <ACCESSLEVEL>4</ACCESSLEVEL>
+    <CLASSNAME>VAdvantage.Process.CreateModuleFields</CLASSNAME>
+    <CREATED>2015-12-14T05:52:54+05:30</CREATED>
+    <CREATEDBY>1005346</CREATEDBY>
+    <ENTITYTYPE>U</ENTITYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISBETAFUNCTIONALITY>N</ISBETAFUNCTIONALITY>
+    <ISDIRECTPRINT>N</ISDIRECTPRINT>
+    <ISREPORT>N</ISREPORT>
+    <ISSERVERPROCESS>N</ISSERVERPROCESS>
+    <NAME>Create Module Fields</NAME>
+    <STATISTIC_COUNT>175</STATISTIC_COUNT>
+    <STATISTIC_SECONDS>0</STATISTIC_SECONDS>
+    <UPDATED>2019-01-31T06:35:32+05:30</UPDATED>
+    <UPDATEDBY>1005348</UPDATEDBY>
+    <VALUE>Create Module Fields</VALUE>
+    <ISEXTERNAL>N</ISEXTERNAL>
+    <ISDASHBOARD>N</ISDASHBOARD>
+    <ADDMENU>N</ADDMENU>
+    <EXPORT_ID>VIS_1000234</EXPORT_ID>
+    <ISCRYSTALREPORT>N</ISCRYSTALREPORT>
+    <INCLUDEIMAGE>N</INCLUDEIMAGE>
+  </AD_Process>
+</NewDataSet>

@@ -1,0 +1,208 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="AD_Tab" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AD_Tab" msprop:BaseTable.0="AD_TAB">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AD_CLIENT_ID" msprop:BaseColumn="AD_CLIENT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_COLUMNSORTORDER_ID" msprop:BaseColumn="AD_COLUMNSORTORDER_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_COLUMNSORTYESNO_ID" msprop:BaseColumn="AD_COLUMNSORTYESNO_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_COLUMN_ID" msprop:BaseColumn="AD_COLUMN_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_CTXAREA_ID" msprop:BaseColumn="AD_CTXAREA_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_IMAGE_ID" msprop:BaseColumn="AD_IMAGE_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_ORG_ID" msprop:BaseColumn="AD_ORG_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_PROCESS_ID" msprop:BaseColumn="AD_PROCESS_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_TAB_ID" msprop:BaseColumn="AD_TAB_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_TABLE_ID" msprop:BaseColumn="AD_TABLE_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_WINDOW_ID" msprop:BaseColumn="AD_WINDOW_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="COMMITWARNING" msprop:BaseColumn="COMMITWARNING" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="CREATED" msprop:BaseColumn="CREATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CREATEDBY" msprop:BaseColumn="CREATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="DESCRIPTION" msprop:BaseColumn="DESCRIPTION" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="DISPLAYLOGIC" msprop:BaseColumn="DISPLAYLOGIC" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ENTITYTYPE" msprop:BaseColumn="ENTITYTYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HASTREE" msprop:BaseColumn="HASTREE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" msprop:BaseColumn="HELP" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="IMPORTFIELDS" msprop:BaseColumn="IMPORTFIELDS" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="INCLUDED_TAB_ID" msprop:BaseColumn="INCLUDED_TAB_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="ISACTIVE" msprop:BaseColumn="ISACTIVE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISADVANCEDTAB" msprop:BaseColumn="ISADVANCEDTAB" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISDISPLAYED" msprop:BaseColumn="ISDISPLAYED" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISINFOTAB" msprop:BaseColumn="ISINFOTAB" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISINSERTRECORD" msprop:BaseColumn="ISINSERTRECORD" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISREADONLY" msprop:BaseColumn="ISREADONLY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISSINGLEROW" msprop:BaseColumn="ISSINGLEROW" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISSORTTAB" msprop:BaseColumn="ISSORTTAB" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISTRANSLATIONTAB" msprop:BaseColumn="ISTRANSLATIONTAB" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" msprop:BaseColumn="NAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDERBYCLAUSE" msprop:BaseColumn="ORDERBYCLAUSE" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="PROCESSING" msprop:BaseColumn="PROCESSING" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="READONLYLOGIC" msprop:BaseColumn="READONLYLOGIC" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="REFERENCED_TAB_ID" msprop:BaseColumn="REFERENCED_TAB_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="SEQNO" msprop:BaseColumn="SEQNO" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="TABLEVEL" msprop:BaseColumn="TABLEVEL" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="UPDATED" msprop:BaseColumn="UPDATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="UPDATEDBY" msprop:BaseColumn="UPDATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="WHERECLAUSE" msprop:BaseColumn="WHERECLAUSE" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="EXPORT_ID" msprop:BaseColumn="EXPORT_ID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="SHOWSUMMARYLEVELNODES" msprop:BaseColumn="SHOWSUMMARYLEVELNODES" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AD_Tab>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_TAB_ID>100</AD_TAB_ID>
+    <AD_TABLE_ID>100</AD_TABLE_ID>
+    <AD_WINDOW_ID>100</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Table definitions</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HASTREE>N</HASTREE>
+    <HELP>Table (header) definition - Note that the name of most tables is automatically syncronized.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISADVANCEDTAB>N</ISADVANCEDTAB>
+    <ISDISPLAYED>Y</ISDISPLAYED>
+    <ISINFOTAB>N</ISINFOTAB>
+    <ISINSERTRECORD>Y</ISINSERTRECORD>
+    <ISREADONLY>N</ISREADONLY>
+    <ISSINGLEROW>N</ISSINGLEROW>
+    <ISSORTTAB>N</ISSORTTAB>
+    <ISTRANSLATIONTAB>N</ISTRANSLATIONTAB>
+    <NAME>Table</NAME>
+    <PROCESSING>N</PROCESSING>
+    <SEQNO>10</SEQNO>
+    <TABLEVEL>0</TABLEVEL>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <EXPORT_ID>VIS_100</EXPORT_ID>
+    <SHOWSUMMARYLEVELNODES>N</SHOWSUMMARYLEVELNODES>
+  </AD_Tab>
+  <AD_Tab>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_TAB_ID>101</AD_TAB_ID>
+    <AD_TABLE_ID>101</AD_TABLE_ID>
+    <AD_WINDOW_ID>100</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Table Column definitions</DESCRIPTION>
+    <DISPLAYLOGIC>@Referenced_Table_ID@=0</DISPLAYLOGIC>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HASTREE>N</HASTREE>
+    <HELP>Defines the columns of a table. Note thet the name of the column is automatically syncronized.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISADVANCEDTAB>N</ISADVANCEDTAB>
+    <ISDISPLAYED>Y</ISDISPLAYED>
+    <ISINFOTAB>N</ISINFOTAB>
+    <ISINSERTRECORD>Y</ISINSERTRECORD>
+    <ISREADONLY>N</ISREADONLY>
+    <ISSINGLEROW>N</ISSINGLEROW>
+    <ISSORTTAB>N</ISSORTTAB>
+    <ISTRANSLATIONTAB>N</ISTRANSLATIONTAB>
+    <NAME>Column</NAME>
+    <PROCESSING>N</PROCESSING>
+    <SEQNO>30</SEQNO>
+    <TABLEVEL>1</TABLEVEL>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_101</EXPORT_ID>
+    <SHOWSUMMARYLEVELNODES>N</SHOWSUMMARYLEVELNODES>
+  </AD_Tab>
+  <AD_Tab>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_TAB_ID>105</AD_TAB_ID>
+    <AD_TABLE_ID>105</AD_TABLE_ID>
+    <AD_WINDOW_ID>102</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Window header definitions</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HASTREE>N</HASTREE>
+    <HELP>The Window Tab defines each window in the system. The default flag indicates that this window should be used as the default Zoom windows for the tables in this window.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISADVANCEDTAB>N</ISADVANCEDTAB>
+    <ISDISPLAYED>Y</ISDISPLAYED>
+    <ISINFOTAB>N</ISINFOTAB>
+    <ISINSERTRECORD>Y</ISINSERTRECORD>
+    <ISREADONLY>N</ISREADONLY>
+    <ISSINGLEROW>N</ISSINGLEROW>
+    <ISSORTTAB>N</ISSORTTAB>
+    <ISTRANSLATIONTAB>N</ISTRANSLATIONTAB>
+    <NAME>Window</NAME>
+    <PROCESSING>N</PROCESSING>
+    <SEQNO>10</SEQNO>
+    <TABLEVEL>0</TABLEVEL>
+    <UPDATED>2018-07-12T06:16:59+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_105</EXPORT_ID>
+    <SHOWSUMMARYLEVELNODES>N</SHOWSUMMARYLEVELNODES>
+  </AD_Tab>
+  <AD_Tab>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_TAB_ID>106</AD_TAB_ID>
+    <AD_TABLE_ID>106</AD_TABLE_ID>
+    <AD_WINDOW_ID>102</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <DESCRIPTION>Tab definition within a window holds fields</DESCRIPTION>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HASTREE>N</HASTREE>
+    <HELP>The Tab Tab defines each Tab within a Window.  Each Tab contains a discrete selection of fields. Note that the display and read only logic is evaluated when loading the window.</HELP>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISADVANCEDTAB>N</ISADVANCEDTAB>
+    <ISDISPLAYED>Y</ISDISPLAYED>
+    <ISINFOTAB>N</ISINFOTAB>
+    <ISINSERTRECORD>Y</ISINSERTRECORD>
+    <ISREADONLY>N</ISREADONLY>
+    <ISSINGLEROW>N</ISSINGLEROW>
+    <ISSORTTAB>N</ISSORTTAB>
+    <ISTRANSLATIONTAB>N</ISTRANSLATIONTAB>
+    <NAME>Tab</NAME>
+    <PROCESSING>N</PROCESSING>
+    <SEQNO>40</SEQNO>
+    <TABLEVEL>1</TABLEVEL>
+    <UPDATED>2018-07-12T06:17:04+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_106</EXPORT_ID>
+    <SHOWSUMMARYLEVELNODES>N</SHOWSUMMARYLEVELNODES>
+  </AD_Tab>
+  <AD_Tab>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_TAB_ID>152</AD_TAB_ID>
+    <AD_TABLE_ID>135</AD_TABLE_ID>
+    <AD_WINDOW_ID>127</AD_WINDOW_ID>
+    <CREATED>2000-01-02T13:30:00+05:30</CREATED>
+    <CREATEDBY>0</CREATEDBY>
+    <ENTITYTYPE>D</ENTITYTYPE>
+    <HASTREE>N</HASTREE>
+    <ISACTIVE>Y</ISACTIVE>
+    <ISADVANCEDTAB>N</ISADVANCEDTAB>
+    <ISDISPLAYED>Y</ISDISPLAYED>
+    <ISINFOTAB>N</ISINFOTAB>
+    <ISINSERTRECORD>Y</ISINSERTRECORD>
+    <ISREADONLY>N</ISREADONLY>
+    <ISSINGLEROW>Y</ISSINGLEROW>
+    <ISSORTTAB>N</ISSORTTAB>
+    <ISTRANSLATIONTAB>N</ISTRANSLATIONTAB>
+    <NAME>Test</NAME>
+    <PROCESSING>N</PROCESSING>
+    <SEQNO>10</SEQNO>
+    <TABLEVEL>0</TABLEVEL>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>0</UPDATEDBY>
+    <EXPORT_ID>VIS_152</EXPORT_ID>
+    <SHOWSUMMARYLEVELNODES>N</SHOWSUMMARYLEVELNODES>
+  </AD_Tab>
+</NewDataSet>

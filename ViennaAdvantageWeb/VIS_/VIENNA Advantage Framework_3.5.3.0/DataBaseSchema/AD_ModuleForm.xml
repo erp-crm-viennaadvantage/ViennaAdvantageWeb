@@ -1,0 +1,69 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AD_ModuleForm">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AD_CLIENT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_FORM_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_MODULEFORM_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_MODULEINFO_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_ORG_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="CREATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CREATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="DESCRIPTION" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISACTIVE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="UPDATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="EXPORT_ID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISMENUITEM" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="PARENTFOLDER" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="MENUITEM" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="MENUITEMEXPORT_ID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="AD_MODULEMENUFOLDER_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="SEQNO" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AD_ModuleForm>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FORM_ID>1000102</AD_FORM_ID>
+    <AD_MODULEFORM_ID>1000040</AD_MODULEFORM_ID>
+    <AD_MODULEINFO_ID>1000027</AD_MODULEINFO_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2015-07-24T06:00:42+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ISACTIVE>Y</ISACTIVE>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1000038</EXPORT_ID>
+    <ISMENUITEM>Y</ISMENUITEM>
+    <MENUITEM>X-Class Generator</MENUITEM>
+    <MENUITEMEXPORT_ID>VIS_635733143763668661</MENUITEMEXPORT_ID>
+    <SEQNO>9999</SEQNO>
+  </AD_ModuleForm>
+  <AD_ModuleForm>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_FORM_ID>1000101</AD_FORM_ID>
+    <AD_MODULEFORM_ID>1000039</AD_MODULEFORM_ID>
+    <AD_MODULEINFO_ID>1000027</AD_MODULEINFO_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <CREATED>2015-05-28T10:58:11+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <ISACTIVE>Y</ISACTIVE>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1000037</EXPORT_ID>
+    <ISMENUITEM>Y</ISMENUITEM>
+    <MENUITEM>Rights Configurator</MENUITEM>
+    <MENUITEMEXPORT_ID>VIS_635684074847222596</MENUITEMEXPORT_ID>
+    <AD_MODULEMENUFOLDER_ID>1000146</AD_MODULEMENUFOLDER_ID>
+    <SEQNO>9</SEQNO>
+  </AD_ModuleForm>
+</NewDataSet>

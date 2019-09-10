@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="AD_Scheduler" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AD_Scheduler" msprop:BaseTable.0="AD_SCHEDULER">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AD_CLIENT_ID" msprop:BaseColumn="AD_CLIENT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_ORG_ID" msprop:BaseColumn="AD_ORG_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_PROCESS_ID" msprop:BaseColumn="AD_PROCESS_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_SCHEDULE_ID" msprop:BaseColumn="AD_SCHEDULE_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_SCHEDULER_ID" msprop:BaseColumn="AD_SCHEDULER_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="CREATED" msprop:BaseColumn="CREATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CREATEDBY" msprop:BaseColumn="CREATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="DATELASTRUN" msprop:BaseColumn="DATELASTRUN" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DATENEXTRUN" msprop:BaseColumn="DATENEXTRUN" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DESCRIPTION" msprop:BaseColumn="DESCRIPTION" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="FREQUENCY" msprop:BaseColumn="FREQUENCY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="FREQUENCYTYPE" msprop:BaseColumn="FREQUENCYTYPE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ISACTIVE" msprop:BaseColumn="ISACTIVE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="KEEPLOGDAYS" msprop:BaseColumn="KEEPLOGDAYS" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="NAME" msprop:BaseColumn="NAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="PROCESSING" msprop:BaseColumn="PROCESSING" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="SUPERVISOR_ID" msprop:BaseColumn="SUPERVISOR_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="UPDATED" msprop:BaseColumn="UPDATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="UPDATEDBY" msprop:BaseColumn="UPDATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="EXPORT_ID" msprop:BaseColumn="EXPORT_ID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AD_Scheduler>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000237</AD_PROCESS_ID>
+    <AD_SCHEDULE_ID>1000002</AD_SCHEDULE_ID>
+    <AD_SCHEDULER_ID>1000006</AD_SCHEDULER_ID>
+    <CREATED>2015-09-10T13:43:40+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <DESCRIPTION>Get and Attach Mail</DESCRIPTION>
+    <FREQUENCY>0</FREQUENCY>
+    <FREQUENCYTYPE>D</FREQUENCYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <KEEPLOGDAYS>7</KEEPLOGDAYS>
+    <NAME>Get and Attach Mail</NAME>
+    <PROCESSING>N</PROCESSING>
+    <SUPERVISOR_ID>0</SUPERVISOR_ID>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1000006</EXPORT_ID>
+  </AD_Scheduler>
+  <AD_Scheduler>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_PROCESS_ID>1000246</AD_PROCESS_ID>
+    <AD_SCHEDULE_ID>1000007</AD_SCHEDULE_ID>
+    <AD_SCHEDULER_ID>1000008</AD_SCHEDULER_ID>
+    <CREATED>2016-07-08T12:01:53+05:30</CREATED>
+    <CREATEDBY>1005355</CREATEDBY>
+    <FREQUENCY>0</FREQUENCY>
+    <FREQUENCYTYPE>D</FREQUENCYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <KEEPLOGDAYS>7</KEEPLOGDAYS>
+    <NAME>Currency Conversion Rate</NAME>
+    <PROCESSING>N</PROCESSING>
+    <SUPERVISOR_ID>1000856</SUPERVISOR_ID>
+    <UPDATED>2017-02-20T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>1005355</UPDATEDBY>
+    <EXPORT_ID>VIS_1000008</EXPORT_ID>
+  </AD_Scheduler>
+</NewDataSet>

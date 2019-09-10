@@ -1,0 +1,101 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="AD_Schedule" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AD_Schedule" msprop:BaseTable.0="AD_SCHEDULE">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AD_CLIENT_ID" msprop:BaseColumn="AD_CLIENT_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_ORG_ID" msprop:BaseColumn="AD_ORG_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="AD_SCHEDULE_ID" msprop:BaseColumn="AD_SCHEDULE_ID" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="CREATED" msprop:BaseColumn="CREATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CREATEDBY" msprop:BaseColumn="CREATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="DESCRIPTION" msprop:BaseColumn="DESCRIPTION" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="FREQUENCY" msprop:BaseColumn="FREQUENCY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="FREQUENCYTYPE" msprop:BaseColumn="FREQUENCYTYPE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" msprop:BaseColumn="HELP" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ISACTIVE" msprop:BaseColumn="ISACTIVE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="MONTHDAY" msprop:BaseColumn="MONTHDAY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="NAME" msprop:BaseColumn="NAME" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="ONFRIDAY" msprop:BaseColumn="ONFRIDAY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ONMONDAY" msprop:BaseColumn="ONMONDAY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ONSATURDAY" msprop:BaseColumn="ONSATURDAY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ONSUNDAY" msprop:BaseColumn="ONSUNDAY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ONTHURSDAY" msprop:BaseColumn="ONTHURSDAY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ONTUESDAY" msprop:BaseColumn="ONTUESDAY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ONWEDNESDAY" msprop:BaseColumn="ONWEDNESDAY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="RUNONLYONIP" msprop:BaseColumn="RUNONLYONIP" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+                <xs:element name="RUNONLYSPECIFIEDTIME" msprop:BaseColumn="RUNONLYSPECIFIEDTIME" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="RUNONLYSPECIFIEDTOLMIN" msprop:BaseColumn="RUNONLYSPECIFIEDTOLMIN" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="SCHEDULEHOUR" msprop:BaseColumn="SCHEDULEHOUR" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="SCHEDULEMINUTE" msprop:BaseColumn="SCHEDULEMINUTE" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="SCHEDULETYPE" msprop:BaseColumn="SCHEDULETYPE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATED" msprop:BaseColumn="UPDATED" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="UPDATEDBY" msprop:BaseColumn="UPDATEDBY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="WEEKDAY" msprop:BaseColumn="WEEKDAY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="EXPORT_ID" msprop:BaseColumn="EXPORT_ID" msprop:OraDbType="119" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AD_Schedule>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_SCHEDULE_ID>1000002</AD_SCHEDULE_ID>
+    <CREATED>2012-09-29T15:20:55+05:30</CREATED>
+    <CREATEDBY>100</CREATEDBY>
+    <DESCRIPTION>Attach and Get Mail</DESCRIPTION>
+    <FREQUENCY>15</FREQUENCY>
+    <FREQUENCYTYPE>M</FREQUENCYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <MONTHDAY>1</MONTHDAY>
+    <NAME>Attach and Get Mail</NAME>
+    <ONFRIDAY>Y</ONFRIDAY>
+    <ONMONDAY>Y</ONMONDAY>
+    <ONSATURDAY>Y</ONSATURDAY>
+    <ONSUNDAY>Y</ONSUNDAY>
+    <ONTHURSDAY>Y</ONTHURSDAY>
+    <ONTUESDAY>Y</ONTUESDAY>
+    <ONWEDNESDAY>Y</ONWEDNESDAY>
+    <RUNONLYSPECIFIEDTIME>N</RUNONLYSPECIFIEDTIME>
+    <RUNONLYSPECIFIEDTOLMIN>0</RUNONLYSPECIFIEDTOLMIN>
+    <SCHEDULEHOUR>0</SCHEDULEHOUR>
+    <SCHEDULEMINUTE>0</SCHEDULEMINUTE>
+    <SCHEDULETYPE>F</SCHEDULETYPE>
+    <UPDATED>2016-10-26T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>100</UPDATEDBY>
+    <EXPORT_ID>VIS_1000002</EXPORT_ID>
+  </AD_Schedule>
+  <AD_Schedule>
+    <AD_CLIENT_ID>0</AD_CLIENT_ID>
+    <AD_ORG_ID>0</AD_ORG_ID>
+    <AD_SCHEDULE_ID>1000007</AD_SCHEDULE_ID>
+    <CREATED>2016-07-08T12:00:45+05:30</CREATED>
+    <CREATEDBY>1005355</CREATEDBY>
+    <FREQUENCY>1</FREQUENCY>
+    <FREQUENCYTYPE>M</FREQUENCYTYPE>
+    <ISACTIVE>Y</ISACTIVE>
+    <MONTHDAY>1</MONTHDAY>
+    <NAME>Currency Conversion Rate</NAME>
+    <ONFRIDAY>Y</ONFRIDAY>
+    <ONMONDAY>Y</ONMONDAY>
+    <ONSATURDAY>Y</ONSATURDAY>
+    <ONSUNDAY>Y</ONSUNDAY>
+    <ONTHURSDAY>Y</ONTHURSDAY>
+    <ONTUESDAY>Y</ONTUESDAY>
+    <ONWEDNESDAY>Y</ONWEDNESDAY>
+    <RUNONLYSPECIFIEDTIME>N</RUNONLYSPECIFIEDTIME>
+    <RUNONLYSPECIFIEDTOLMIN>0</RUNONLYSPECIFIEDTOLMIN>
+    <SCHEDULEHOUR>0</SCHEDULEHOUR>
+    <SCHEDULEMINUTE>0</SCHEDULEMINUTE>
+    <SCHEDULETYPE>F</SCHEDULETYPE>
+    <UPDATED>2017-02-20T00:00:00+05:30</UPDATED>
+    <UPDATEDBY>1005355</UPDATEDBY>
+    <EXPORT_ID>VIS_1000007</EXPORT_ID>
+  </AD_Schedule>
+</NewDataSet>
